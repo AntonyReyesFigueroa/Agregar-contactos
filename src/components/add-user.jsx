@@ -130,7 +130,7 @@ export default function ContactList() {
         <div className="relative flex justify-center items-center min-h-screen bg-black overflow-auto">
             {/* Fondo con GIF o imagen estática */}
             <Image
-                src={showGif ? "/fondo.gif" : "/fondo.jpg "}
+                src="/fondo.jpg "
                 alt="Background GIF"
                 layout="fill"
                 objectFit="cover"
