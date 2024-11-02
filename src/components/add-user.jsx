@@ -130,7 +130,7 @@ export default function ContactList() {
         <div className="relative flex justify-center items-center min-h-screen bg-black overflow-auto">
             {/* Fondo con GIF o imagen estática */}
             <Image
-                src={showGif ? "/fondo.gif" : "/fondo.svg"}
+                src={showGif ? "/fondo.gif" : "/fondo.jpg "}
                 alt="Background GIF"
                 layout="fill"
                 objectFit="cover"
@@ -139,7 +139,7 @@ export default function ContactList() {
                 priority
             />
 
-            <div className="relative w-full max-w-5xl z-10 bg-black bg-opacity-40 p-6 rounded-lg flex flex-col items-center">
+            <div className="relative w-full max-w-5xl z-10  bg-opacity-40 p-6 rounded-lg flex flex-col items-center">
                 <div className="flex justify-between items-center mb-6 w-full">
                     <button
                         onClick={() => {
